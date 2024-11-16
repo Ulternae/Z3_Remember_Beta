@@ -1,7 +1,7 @@
 import whatsappService from "./whatsappService.js";
 import { globals as g } from "#config/globals.js";
 import { appendToSheet } from "./googleSheetsService.js";
-import { openAiService } from "./openaiService.js";
+import { openAiService } from "./openAiService.js"
 
 class MessageHandler {
   constructor() {
